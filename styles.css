@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color:rebeccapurple;
+}
+nav{
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+.calculator {
+    color: #218838;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+}
+.text-main{
+    text-align: center;
+    color: #218838;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text{
+    color: #218838;
+    max-width: 950px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.kontakt{
+    background: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.number{
+    text-align: left;
+    margin-left: 52px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

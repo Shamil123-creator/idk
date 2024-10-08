@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счетчик КБЖУ</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">            
+            <nav class="nav">
+                <ul>
+                    <li><a href="#damirhueglot">Введение</a></li>
+                    <li><a href="#calculator">Калькулятор КБЖУ</a></li>
+                    <li><a href="#kontakt">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="text-main">Добро пожаловать на наш сайт по подсчету КБЖУ!</h1>
+<div id="damirhueglot">
+    <section class="text">
+            <p>Мы рады приветствовать вас на платформе, где забота о вашем здоровье и правильном питании становится простой и удобной. Наш ресурс предназначен для тех, кто стремится поддерживать сбалансированный рацион, контролировать калории и следить за содержанием белков, жиров и углеводов в своем питании.
+Здесь вы найдете простые инструменты для расчета ваших личных нужд в КБЖУ, а также полезные советы по планированию питания. Мы предлагаем рецепты, которые помогут разнообразить ваш рацион, а также полезные статьи и рекомендации по здоровому образу жизни.
+Начните свой путь к здоровью и гармонии с нами — вместе мы сможем достичь ваших целей!</p>
+    </section>
+</div>
+    
+    <section id="calculator" class="calculator">
+        <h2>Калькулятор КБЖУ</h2>
+        <form id="calorie-form">
+            <label for="gender">Пол:</label>
+            <select id="gender" required>
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+
+            <label for="weight">Вес (кг):</label>
+            <input type="number" id="weight" required>
+
+            <label for="height">Рост (см):</label>
+            <input type="number" id="height" required>
+
+            <label for="age">Возраст (лет):</label>
+            <input type="number" id="age" required>
+
+            <label for="activity">Уровень активности:</label>
+            <select id="activity">
+                <option value="1.2">Малоподвижный</option>
+                <option value="1.375">Небольшая активность</option>
+                <option value="1.55">Умеренная активность</option>
+                <option value="1.725">Высокая активность</option>
+                <option value="1.9">Экстра высокая активность</option>
+            </select>
+
+            <button type="submit">Рассчитать</button>
+        </form>
+
+        <div id="results" class="results"></div>
+    </section>
+
+    <script src="script.js"></script>
+<div class="kontakt">
+    <footer id="kontakt">
+        <h3>&#10149; Для обратной связи</h3>
+        <div class="number">
+            <h3><pre><strong>damirsocseti@gmail.com</pre></h3>
+        <p>&bull; 8 747 233 3511</p>
+        <p>&bull; 8 705 253 6860</p>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
